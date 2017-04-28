@@ -1,0 +1,36 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+$base-color: #AEC6CF;
+$sub-base-color: #779ECB;
+$text-color: #CA5B56;
+$title-color: #B05854;
+$complimentary-color: #F0FBFF;
+$shadow-color: #CFBFAE;
+
+$title-font: 'Oswald', sans-serif;
+$body-font: 'Baloo', cursive;
+
+p{
+  font-family: $body-font;
+  color: $base-color;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $title-font;
+  color: black;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}

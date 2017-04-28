@@ -1,0 +1,13 @@
+
+/*Import base styles*/
+@import './base/base';
+@import './base/variables';
+@import './base/forms';
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Baloo|Oswald');
+
+/*Import component specific styles*/
+@import './components/body';
+@import './components/header';
+@import './components/footer';

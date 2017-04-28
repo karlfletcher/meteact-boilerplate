@@ -1,0 +1,22 @@
+._body{
+  background-color: white;
+  padding: 15px;
+  height: 500px;
+  text-align:center;
+
+  &.top-to-bottom {
+      border-width: 5px;
+      border-style: solid;
+      -webkit-border-image:
+        -webkit-gradient(linear, 0 0, 0 100%, from($sub-base-color), to(rgba(0, 0, 0, 0))) 1 100%;
+      -webkit-border-image:
+        -webkit-linear-gradient($sub-base-color, rgba(0, 0, 0, 0)) 1 100%;
+      -moz-border-image:
+        -moz-linear-gradient($sub-base-color, rgba(0, 0, 0, 0)) 1 100%;
+      -o-border-image:
+        -o-linear-gradient($sub-base-color, rgba(0, 0, 0, 0)) 1 100%;
+      border-image:
+        linear-gradient(to bottom, $sub-base-color, rgba(0, 0, 0, 0)) 1 100%;
+  }
+
+}

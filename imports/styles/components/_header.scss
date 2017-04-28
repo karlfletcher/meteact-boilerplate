@@ -1,0 +1,28 @@
+._header {
+  height: 50px;
+  background-color: $sub-base-color;
+  padding: 10px;
+
+  div {
+    &.half {
+      width: 50%;
+    }
+
+    &.third {
+      width: 33%;
+    }
+
+    &.quart {
+      width: 25%;
+    }
+
+  }
+
+}
+.hang-left{
+  float: left;
+}
+
+.hang-right{
+  float: right;
+}

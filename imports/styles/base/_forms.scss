@@ -1,0 +1,10 @@
+input {
+  padding:5px;
+
+  &.forms-search {
+    border: 2px solid $base-color;
+    border-radius: 0px 15px 15px 0px;
+    width: 33%;
+    padding: 15px;
+  }
+}
